@@ -1,2 +1,13 @@
-@import "custom.scss";
+// Access variables and functions
+@import "bootstrap/functions";
+@import "bootstrap/mixins";
+@import "bootstrap/variables";
+
+// Customize the Bootstrap theme
+@import "theme.scss";
+
+// Bootstrap defaults
 @import "bootstrap/bootstrap.scss";
+
+// Custom style for the app
+@import "style.scss";
